@@ -6,7 +6,7 @@ export default function App() {
     "overlay-left",
     "overlay-center",
     "overlay-right",
-    "overlay-center"
+    "overlay-right-to-center"
   ];
 
   const [prevIndex, setPrevIndex] = useState(0);

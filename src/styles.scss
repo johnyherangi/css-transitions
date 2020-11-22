@@ -42,4 +42,12 @@
     height: 100%;
     width: 50%;
   }
+
+  &-right-to-center {
+    @extend .overlay;
+    @include transition-defaults;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
 }
